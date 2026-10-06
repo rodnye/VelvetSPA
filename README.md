@@ -45,6 +45,14 @@ pnpm api:dev
 
 Esto iniciara el servidor en el puerto 3000 y sera accesible en http://localhost:3000/docs para ver las especificaciones OpenAPI
 
+Iniciar la web:
+
+```shell
+pnpm web:dev
+```
+
+Esto iniciara un servidor vite que renderizara la pagina web, es accesible via http://localhost:5173/
+
 ## Otros comandos
 
 ```shell
