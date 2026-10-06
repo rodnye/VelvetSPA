@@ -7,6 +7,8 @@
     "api:start": "pnpm -F api start",
     "api:dev": "pnpm -F api start:dev",
     "api:format": "pnpm -F api format",
+    "web:dev": "pnpm -F web dev --host",
+    "web:format": "prettier --write packages/web",
     "db:push": "pnpm -F api db:push",
     "format": "prettier --write ."
   },
