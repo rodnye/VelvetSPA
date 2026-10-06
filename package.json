@@ -6,7 +6,8 @@
   "scripts": {
     "api:start": "pnpm -F api start",
     "api:dev": "pnpm -F api start:dev",
-    "api:format": "prettier --write ./packages/api",
+    "api:format": "pnpm -F api format",
+    "db:push": "pnpm -F api db:push",
     "format": "prettier --write ."
   },
   "keywords": [],
