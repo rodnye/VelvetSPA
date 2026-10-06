@@ -1,0 +1,10 @@
+services:
+  db:
+    image: postgres:latest
+    container_name: velvet-db
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+      POSTGRES_DB: postgres
+    ports:
+      - '13456:5432'
