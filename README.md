@@ -21,7 +21,7 @@ Se puede utilizar la base de datos postgres definida en `docker/docker-compose.y
 Iniciarla de la siguiente manera:
 
 ```shell
-sudo docker compose -f docker/docker-compose.yml up
+docker compose -f docker/docker-compose.yml up
 ```
 
 De no ser el caso, es necesario definir la variable de entorno `DATABASE_URL` con la uri de la ruta de la base de datos de postgres que se esté
