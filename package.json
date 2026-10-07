@@ -10,6 +10,7 @@
     "web:dev": "pnpm -F web dev --host",
     "web:format": "prettier --write packages/web",
     "db:push": "pnpm -F api db:push",
+    "db:seed": "pnpm -F api db:seed",
     "format": "prettier --write ."
   },
   "keywords": [],
@@ -17,6 +18,7 @@
   "license": "ISC",
   "packageManager": "pnpm@10.33.2",
   "devDependencies": {
+    "codepicker-tool": "^2.4.8",
     "prettier": "^3.9.9"
   }
 }
