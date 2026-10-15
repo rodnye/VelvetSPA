@@ -1,0 +1,5 @@
+**/*.svg
+**/*ignore
+**/.prettierc
+
+WHY.md

@@ -1,1 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600;700&display=swap');
 @import 'tailwindcss';
+
+@theme {
+  --font-display: 'Fraunces', ui-serif, Georgia, serif;
+  --font-sans: 'Inter', ui-sans-serif, system-ui, sans-serif;
+
+  --color-cream-50: #fbf8f3;
+  --color-cream-100: #f5eee4;
+  --color-cream-200: #eadfcd;
+  --color-cream-300: #ddccb3;
+
+  --color-espresso-950: #211a13;
+  --color-espresso-900: #2e241a;
+  --color-espresso-800: #443627;
+  --color-espresso-700: #5b4a37;
+  --color-espresso-500: #8a7458;
+  --color-espresso-300: #c4b29c;
+
+  --color-velvet-700: #8e4156;
+  --color-velvet-600: #a44f66;
+  --color-velvet-500: #b7617a;
+  --color-velvet-300: #d9a3b2;
+  --color-velvet-100: #f6e3e8;
+  --color-velvet-50: #fbf1f4;
+
+  --color-gold-500: #c9a24b;
+  --color-gold-100: #f3ead6;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-cream-50);
+  color: var(--color-espresso-900);
+  font-family: var(--font-sans);
+}
+
+::selection {
+  background-color: var(--color-velvet-100);
+  color: var(--color-velvet-700);
+}
